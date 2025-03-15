@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Data Analysis Dashboard</h1>
+    </header>
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Overview of the data analysis results.</p>
+        </section>
+        <section id="charts">
+            <h2>Charts</h2>
+            <div id="chart1">
+                <h3>Chart 1</h3>
+                <!-- Chart 1 will be rendered here -->
+            </div>
+            <div id="chart2">
+                <h3>Chart 2</h3>
+                <!-- Chart 2 will be rendered here -->
+            </div>
+        </section>
+        <section id="tables">
+            <h2>Data Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                    </tr>
+                    <!-- More rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Data Analysis Inc.</p>
+    </footer>
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
